@@ -14,7 +14,7 @@ main = do
   homedir <- getHomeDirectory 
   str <- readFile (homedir </> ".www-HROOT")  
   let rdir = head (lines str)
-  hakyllWith deploysetup $ do
+  hakyllWith (deploysetup rdir) $ do
     match "gallery/*" $ do
         route   idRoute
         compile copyFileCompiler
