@@ -5,10 +5,14 @@
 }
 
 body {
-  font-family: sans-serif;
+  max-width: 6in; 
+  font-style: normal; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300; 
   background-color: #FFFFFF;
-  color: #3C3A37;
-  margin: 10px auto 10px auto;
+  text-align: justify;
+  #color: #3C3A37;
+  #margin: 10px auto 10px auto;
 }
 
 a {
@@ -106,7 +110,7 @@ div#navigation a {
 }
 
 h1.title {
-  font-family: georgia, 'bitstream vera sans serif', 'lucida grande', helvetica, verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; 
   font-weight: normal;
   letter-spacing: -0.05em;
   /*color: #000000;*/
