@@ -15,7 +15,8 @@ Tutorial on <code>HROOT</code> will be posted soon.
 
 Related documentation
 ---------------------
-Documentation on <code>ROOT</code> can be found in 
-<http://root.cern.ch/drupal/content/documentation>.
+Documentation on <code>ROOT</code> can be found in the following:  
+
+- <http://root.cern.ch/drupal/content/documentation>.
  
 

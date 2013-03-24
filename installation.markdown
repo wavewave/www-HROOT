@@ -1,5 +1,5 @@
 ---
-title: Download
+title: Installation
 ---
 
 <code>HROOT</code> can be installed from hackage using

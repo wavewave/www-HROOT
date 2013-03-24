@@ -26,7 +26,7 @@ main = do
     match "templates/*" $ compile templateCompiler
 
     match (list [ "index.markdown"
-                , "download.markdown"
+                , "installation.markdown"
                 , "documentation.markdown"
                 , "gallery.markdown"
                 , "development.markdown"]) $ do 
